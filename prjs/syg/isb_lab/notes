@@ -1,5 +1,7 @@
 BACKGROUND
 
+HANDLE: ISB_LAB
+
 KEY ASKS:
 
 Run ubuntu VM under AD.
@@ -14,14 +16,15 @@ Will the ubuntu vm have a gui?
 
 REFERENCES
 
-#What is Azure AD?
+# What is Azure AD?
 https://www.simple-talk.com/cloud/security-and-compliance/azure-active-directory-part-1-an-introduction/
 
-#How to join a RHEL VM to a managed domain?
+# How to join a RHEL VM to a managed domain?
 https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-admin-guide-join-rhel-linux-vm
 
-#Use of sssd to authenticate user logins against an Active Directory via using sssd's "ad" provider
+# Use of sssd to authenticate user logins against an Active Directory via using sssd's "ad" provider
 https://help.ubuntu.com/lts/serverguide/sssd-ad.html
 
-
+# Use sample code and the adal-node library to authenticate Linux logins with Azure Active Directory
+https://channel9.msdn.com/Blogs/Open/Using-Azure-AD-for-Linux-logins
 
