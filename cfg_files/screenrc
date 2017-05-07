@@ -1,0 +1,11 @@
+autodetach on 
+startup_message off 
+hardstatus alwayslastline 
+shelltitle 'bash'
+
+# Reference:
+# http://www.kilobitspersecond.com/2014/02/10/understanding-gnu-screens-hardstatus-strings/
+hardstatus string '%{=b r}%S %{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{= w}%Y-%m-%d %0C:%s%a%{g} ]%{W}'
+
+
+
