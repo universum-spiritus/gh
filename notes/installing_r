@@ -30,3 +30,18 @@ sudo apt-get install r-base-dev=3.4.0-1xenial0
 sudo apt-get install r-base=3.4.0-1xenial0
 
 
+-------------------------------------------------------------------------------
+While installing tm package one needs to install XML dependency.
+It may fail for the want of libxml2-dev package being not installed.
+Please install it using:
+sudo apt-get install libxml2-dev
+
+Also for RCurl and poppler R packages following Ubuntu packages 
+need to be installed:
+
+sudo apt-get install libcurl4-gnutls-dev
+sudo apt-get install ibpoppler-glib-dev 
+
+
+
+-------------------------------------------------------------------------------
