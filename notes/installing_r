@@ -1,0 +1,32 @@
+By default installing R on ubuntu installs a bit dated version.
+To install latest version -
+
+https://pythonandr.com/2015/04/27/upgrading-to-r-3-2-0-on-ubuntu/
+
+Update apt's source to point to latest R by adding following line in /etc/apt/sources.list
+deb http://cloud.r-project.org/bin/linux/ubuntu xenial/
+
+Execute the following commands on terminal
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9  
+sudo add-apt-repository ppa:marutter/rdev
+
+Update the apt cache
+sudo apt-get update  
+
+Verify if you are seeing the expected version of R
+sudo apt-cache showpkg r-base | less
+
+Upgrade if required
+# sudo apt-get upgrade  
+
+Install R by specifying the version explicitly as understood
+from the above cmd
+
+# execute one by one 
+sudo apt-get install r-base-core=3.4.0-1xenial0
+sudo apt-get install r-base-dev=3.4.0-1xenial0
+
+# execute in one step
+sudo apt-get install r-base=3.4.0-1xenial0
+
+
