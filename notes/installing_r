@@ -45,3 +45,32 @@ sudo apt-get install ibpoppler-glib-dev
 
 
 -------------------------------------------------------------------------------
+Installing stringr package
+
+Fixing following errors:
+# Errors:  
+  installation of package ‘openssl’ had non-zero exit status
+  installation of package ‘httr’ had non-zero exit status
+  installation of package ‘covr’ had non-zero exit status
+sudo apt-get install  libssl-dev
+
+------------------------------------------------------------------------------
+Installing rattle
+
+  installation of package ‘RGtk2’ had non-zero exit status
+  installation of package ‘cairoDevice’ had non-zero exit status
+  installation of package ‘RODBC’ had non-zero exit status
+  installation of package ‘gWidgetsRGtk2’ had non-zero exit status
+  installation of package ‘rggobi’ had non-zero exit status
+  installation of package ‘RGtk2Extras’ had non-zero exit status
+  installation of package ‘rattle’ had non-zero exit status
+  installation of package ‘playwith’ had non-zero exit status
+
+  sudo apt-get install openssl
+  sudo apt-get install  libssl-dev
+  sudo apt-get install gtk2.0
+  sudo apt-get install libgtk2.0-dev
+  sudo apt-get install ggobi
+  sudo apt-get install unixodbc
+  sudo apt-get install libiodbc2-dev
+  sudo apt-get install unixodbc unixodbc-dev
