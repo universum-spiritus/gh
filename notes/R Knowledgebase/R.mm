@@ -1,8 +1,8 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="R" FOLDED="false" ID="ID_1071600520" CREATED="1495673738893" MODIFIED="1495674345584" STYLE="oval">
-<font SIZE="18"/>
-<hook NAME="MapStyle">
+<node TEXT="R" FOLDED="false" ID="ID_1071600520" CREATED="1495673738893" MODIFIED="1495703530864" STYLE="oval">
+<font SIZE="14"/>
+<hook NAME="MapStyle" zoom="1.21">
     <properties fit_to_viewport="false;"/>
 
 <map_styles>
@@ -82,7 +82,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="" POSITION="right" ID="ID_1950383508" CREATED="1495673970616" MODIFIED="1495673970647">
+<node TEXT="topics" POSITION="right" ID="ID_1950383508" CREATED="1495673970616" MODIFIED="1495703520398">
 <edge COLOR="#ff0000"/>
 </node>
 </node>
