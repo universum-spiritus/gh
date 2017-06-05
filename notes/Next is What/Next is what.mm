@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Next is what" FOLDED="false" ID="ID_500308797" CREATED="1494370453478" MODIFIED="1495189133445" STYLE="oval">
 <font SIZE="12"/>
-<hook NAME="MapStyle" zoom="0.909">
+<hook NAME="MapStyle" zoom="1.331">
     <properties fit_to_viewport="false;"/>
 
 <map_styles>
@@ -96,7 +96,7 @@
 <node TEXT="ontology" ID="ID_283511467" CREATED="1495225577160" MODIFIED="1495225579957">
 <node TEXT="study of nature of existence" ID="ID_1554270072" CREATED="1495225581735" MODIFIED="1495225596827"/>
 <node TEXT="ontology engineering" ID="ID_1892197584" CREATED="1495225639303" MODIFIED="1495225651545">
-<node TEXT="semantic decision tables" ID="ID_1123713431" CREATED="1495225923451" MODIFIED="1495225929738"/>
+<node TEXT="d" ID="ID_1123713431" CREATED="1495225923451" MODIFIED="1495435184462"/>
 <node TEXT="knowledge representation language" ID="ID_1006678988" CREATED="1495225984410" MODIFIED="1495226011338"/>
 </node>
 </node>
