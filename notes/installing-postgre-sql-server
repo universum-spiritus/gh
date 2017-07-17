@@ -1,0 +1,23 @@
+Do not download the gui installer - rather get the archive 
+
+https://www.enterprisedb.com/download-postgresql-binaries
+
+Unzip the archive in prgs directory
+Add the pgsql/bin to the PATH variable
+
+Create tablespace directory for the postgre daemon 
+- create a directory under databases/pgsql
+- cd to databases/pgsql
+$ initdb .
+
+
+Start the postgres sql daemon by
+$ pg_ctl -D . -l logfile start
+
+
+# create db
+createdb universum_db
+
+# login into psql
+psql --dbname universum_db
+
