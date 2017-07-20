@@ -29,6 +29,9 @@ sudo apt-get install r-base-dev=3.4.0-1xenial0
 # execute in one step
 sudo apt-get install r-base=3.4.0-1xenial0
 
+# if the ubuntu version is trusy...
+sudo apt-get install r-base=3.4.1-2trusty0 
+
 
 
 # Before installing tidyverse, tm and stringr packages
@@ -38,6 +41,10 @@ sudo apt-get install libcurl4-gnutls-dev
 sudo apt-get install ibpoppler-glib-dev 
 sudo apt-get install openssl
 sudo apt-get install  libssl-dev
+sudo apt-get install libiodbc2-dev
+
+# Connecting pgsql using RPostgreSQL package
+https://www.r-bloggers.com/getting-started-with-postgresql-in-r/
 
 
 ------------------------------------------------------------------------------
