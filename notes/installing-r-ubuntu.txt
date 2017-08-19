@@ -52,17 +52,12 @@ https://www.r-bloggers.com/getting-started-with-postgresql-in-r/
 For installing rstudio
 
 # download with wget
-$ wget http://ftp.ca.debian.org/debian/pool/main/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5_amd64.deb
-$ wget http://ftp.ca.debian.org/debian/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
- 
-# Now install with dpkg
-$ sudo dpkg -i libgstreamer0.10-0_0.10.36-1.5_amd64.deb
-$ sudo dpkg -i libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
-
-$ sudo apt-mark hold libgstreamer-plugins-base0.10-0
-libgstreamer-plugins-base0.10-0 set on hold.
-$ sudo apt-mark hold libgstreamer0.10
-libgstreamer0.10-0 set on hold.
+wget http://ftp.ca.debian.org/debian/pool/main/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5_amd64.deb
+wget http://ftp.ca.debian.org/debian/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
+sudo dpkg -i libgstreamer0.10-0_0.10.36-1.5_amd64.deb
+sudo dpkg -i libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
+sudo apt-mark hold libgstreamer-plugins-base0.10-0
+sudo apt-mark hold libgstreamer0.10
 
 
 
