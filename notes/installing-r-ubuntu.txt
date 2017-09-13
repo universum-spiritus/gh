@@ -59,8 +59,10 @@ sudo dpkg -i libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
 sudo apt-mark hold libgstreamer-plugins-base0.10-0
 sudo apt-mark hold libgstreamer0.10
 
-
-
+----------------------------------------------------------------------------
+Installing RODBC
+sudo apt-get install unixodbc-dev
+install.packages("RODBC")
 -----------------------------------------------------------------------------
 
 Installing rattle
