@@ -1,0 +1,24 @@
+-----------------------------------------------------------
+# What is the purpose of Power BI?
+
+Power BI is a self-service-bi-service that 
+enables -
+- discovering data
+- capturing data
+- structuring data
+- shaping data
+
+so following operations
+- slicing
+- dicing
+- chopping
+- querying
+- presenting
+    - interactive
+    - visual
+
+can be applied to derive insights and 
+business intelligence.
+
+    
+# 
