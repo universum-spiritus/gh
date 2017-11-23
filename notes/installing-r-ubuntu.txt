@@ -26,6 +26,8 @@ from the above cmd
 sudo apt-get install r-base-core=3.4.0-1xenial0
 sudo apt-get install r-base-dev=3.4.0-1xenial0
 
+sudo apt-get install r-base-dev=3.4.2-2trusty
+
 # execute in one step
 sudo apt-get install r-base=3.4.0-1xenial0
 
